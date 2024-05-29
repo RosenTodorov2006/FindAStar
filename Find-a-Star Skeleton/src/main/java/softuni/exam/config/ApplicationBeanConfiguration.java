@@ -14,6 +14,7 @@ public class ApplicationBeanConfiguration {
     public ModelMapper modelMapper(){
         return new ModelMapper();
     }
+    //Added with dependency
     @Bean
     public Gson gson(){
         return new GsonBuilder()
