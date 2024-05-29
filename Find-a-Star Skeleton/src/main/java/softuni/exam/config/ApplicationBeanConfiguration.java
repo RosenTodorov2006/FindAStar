@@ -23,6 +23,7 @@ public class ApplicationBeanConfiguration {
                 .setPrettyPrinting()
                 .create();
     }
+    //Added from custom class
     @Bean
     public ValidatorInterface validatorInterface(){
         return new ValidatorImpl();
