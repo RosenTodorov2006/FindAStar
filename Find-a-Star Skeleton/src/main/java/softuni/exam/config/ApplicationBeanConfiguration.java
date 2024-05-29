@@ -10,6 +10,7 @@ import softuni.exam.util.ValidatorInterface;
 
 @Configuration
 public class ApplicationBeanConfiguration {
+    //Added with dependency
     @Bean
     public ModelMapper modelMapper(){
         return new ModelMapper();
